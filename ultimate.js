@@ -73,6 +73,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     createBoard()
 
+    // Play Audio
+    playAudio('./sounds/game_start.wav')
+
     setTimeout(function gameStart() {
       //create Characters
       //draw pacman onto the board
