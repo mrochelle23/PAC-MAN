@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
           playAudio('./sounds/sounds_gameWin.wav')
           ghosts.forEach(ghost => clearInterval(ghost.timerId))
           document.removeEventListener('keyup', movePacman)
-          setTimeout(function(){ alert("You have WON!"); }, 500)
+          setTimeout(function(){ alert("You WIN!"); }, 500)
         }
       }
     }, 4000)
